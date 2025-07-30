@@ -1,5 +1,5 @@
-import Navber from "./home/_components/Navber";
-import TopBanner from "./home/_components/TopBanner";
+import Navber from "./_components/Navber";
+import TopBanner from "./_components/TopBanner";
 
 export default function HomeLayout({
   children,
@@ -10,7 +10,7 @@ export default function HomeLayout({
     <div className=" font-figtree h-screen">
       <TopBanner />
       <Navber />
-      <div>{children}</div>
+      {children}
     </div>
   );
 }
