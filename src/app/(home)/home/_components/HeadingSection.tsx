@@ -2,7 +2,7 @@ import React from "react";
 
 const HeadingSection = () => {
   return (
-    <div className=" flex flex-col  w-87.5 lg:w-129 gap-4 order-1 lg:order-1 ">
+    <div className=" flex flex-col  max-w-87.5 w-full lg:max-w-full lg:w-129 gap-4 order-1 lg:order-1 ">
       <p className=" flex flex-col font-urbanist font-extrabold lg:font-bold text-[25px] lg:text-[35px] leading-[100%] tracking-[0]   align-middle ">
         <span className=" h-15 lg:h-21 text-center lg:text-left ">
           Want to Turn Social Media Into a Profitable Career?
@@ -32,8 +32,8 @@ const HeadingSection = () => {
 export default HeadingSection;
 
 const Heading = ({ children }: { children: React.ReactNode }) => (
-  <p className=" flex flex-row gap-2.5">
-    <span className=" font-nunito font-medium text-[22px] leading-[100%] tracking-[0%] align-middle">
+  <p className=" flex flex-row items-center  gap-2.5">
+    <span className=" w-[22px] font-nunito font-medium text-[22px] leading-[100%] tracking-[0%] align-middle">
       ✨
     </span>
     <span className="font-nunito font-medium lg:font-semibold text-base leading-5.5 tracking-[0%] align-middle">
