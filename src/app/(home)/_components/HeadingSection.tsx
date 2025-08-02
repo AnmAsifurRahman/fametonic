@@ -36,7 +36,7 @@ const Heading = ({ children }: { children: React.ReactNode }) => (
     <span className=" w-[22px] font-nunito font-medium text-[22px] leading-[100%] tracking-[0%] align-middle">
       ✨
     </span>
-    <span className="font-nunito font-medium lg:font-semibold text-base leading-5.5 tracking-[0%] align-middle">
+    <span className=" font-figtree font-medium lg:font-semibold text-base leading-5.5 tracking-[0%] align-middle">
       {children}
     </span>
   </p>

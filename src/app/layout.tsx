@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${figtree.variable} ${urbanist.variable} ${nunito.variable}  antialiased`}
+        className={`${figtree.variable} ${urbanist.variable} ${nunito.variable}  `}
       >
         {children}
       </body>

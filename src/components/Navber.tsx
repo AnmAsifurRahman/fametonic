@@ -1,10 +1,9 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import logoWebIcon from "@/../public/image/logo-web.svg";
 import logoMobileIcon from "@/../public/image/logo-mobile.svg";
 import menuIcon from "@/../public/image/menu.svg";
-
-import Link from "next/link";
 
 const Navber = () => {
   return (
@@ -28,7 +27,7 @@ const Navber = () => {
         height={12}
         className="w-auto block lg:hidden"
       />
-      <div className="hidden h-5.5 lg:flex gap-10 justify-center  font-semibold text-lg leading-[100%] tracking-[0%] text-[#A9A9A9]  ">
+      <div className="font-figtree hidden h-5.5 lg:flex gap-10 justify-center  font-semibold text-lg leading-[100%] tracking-[0%] text-[#A9A9A9]  ">
         <Link href={"#"}>About us</Link>
         <Link href={"#"}>Contact</Link>
       </div>
