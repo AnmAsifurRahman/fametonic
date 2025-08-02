@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import chevronIcon from "@/../public/image/chevron.svg";
+
 const StartSection = () => {
   return (
     <div className=" flex flex-col lg:w-[313px] gap-2.5 order-3 lg:order-2">
@@ -8,7 +9,7 @@ const StartSection = () => {
         <span className=" font-urbanist font-bold text-xl leading-[100%] tracking-normal align-middle">
           GET STARTED
         </span>
-        <Image src={chevronIcon} alt={"ChevronIcon"} />
+        <Image src={chevronIcon} alt={"Chevron Icon"} />
       </button>
       <span className=" font-figtree font-normal text-xs leading-4 tracking-normal align-middle text-center">
         1-minute quiz for personalized Insights
