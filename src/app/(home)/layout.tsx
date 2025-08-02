@@ -1,5 +1,5 @@
-import Navber from "./_components/Navber";
-import TopBanner from "./_components/TopBanner";
+import Navber from "../../components/Navber";
+import TopBanner from "../../components/TopBanner";
 
 export default function HomeLayout({
   children,

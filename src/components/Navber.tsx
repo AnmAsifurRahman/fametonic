@@ -1,15 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import webIcon from "@/../public/icon-web.svg";
-import mobileIcon from "@/../public/icon-mobile.svg";
-
-import menuIcon from "@/../public/menu.svg";
+import webIcon from "@/../public/image/logo-web.svg";
+import mobileIcon from "@/../public/image/logo-mobile.svg";
+import menuIcon from "@/../public/image/menu.svg";
 
 import Link from "next/link";
 
 const Navber = () => {
   return (
-    <div className=" relative flex pt-4 lg:pt-[35px] pr-[29px] pl-[140px] justify-between lg:px-[211px]  ">
+    <div className=" relative min-w-[221px] flex pt-4 lg:pt-[35px] pr-[29px] pl-[140px] justify-between lg:px-[211px]  ">
       <Image
         src={mobileIcon}
         alt={"mobileIcon"}

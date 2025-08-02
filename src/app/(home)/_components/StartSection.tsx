@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import chevronIcon from "@/../public/chevron.svg";
+import chevronIcon from "@/../public/image/chevron.svg";
 const StartSection = () => {
   return (
     <div className=" flex flex-col lg:w-[313px] gap-2.5 order-3 lg:order-2">
